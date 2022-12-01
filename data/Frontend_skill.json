@@ -1,0 +1,41 @@
+{
+  "Frontend":{
+    "기술" :[
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Flutter",
+      "NativeScript",
+      "React Native",
+      "React"
+    ],
+    "프레임워크":[
+      "Electron",
+      "Tauri",
+      "Next.js",
+      "Nuxt.js",
+      "Jest",
+      "Cypress",
+      "Enzyme",
+      "PWA",
+      "Angular",
+      "Vue.js",
+      "Bootstrap",
+      "Bulma",
+      "Tailwind CSS",
+      "Chakra UI",
+      "Material UI",
+      "Radix UI"
+    ],
+    "기타":[
+      "Vuepress",
+      "Jekyll",
+      "Hugo",
+      "Gridsome",
+      "Eleventy",
+      "GatsbyJS",
+      "React Testing Library"
+    ]
+  }
+  
+}

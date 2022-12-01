@@ -1,0 +1,49 @@
+{
+  "Backend":{
+    "기술" :[
+      "NoSQL",
+      "GraphQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Java",
+      "C#",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Rust",
+      "Go",
+      "PostgreSQL",
+      "MySQL",
+      "MariaDB",
+      "MS SQL",
+      "Oracle",
+      "MongoDB",
+      "DynamoDB",
+      "Cassandra",
+      "InfluxDB",
+      "Firebase",
+      "Redis",
+      "Memcached",
+      "Neo4j",
+      "Caddy"
+    ],
+    "프레임워크":[
+      "Kafka",
+      "Docker",
+      "Relay Modern",
+      "Apollo"
+    ],
+    "기타":[
+      "웹 서버",
+      "웹 소켓",
+      "HATEOAS",
+      "REST",
+      "HATEOAS",
+      "SOAP",
+      "gRPC",
+      "SOLID"  
+    ]
+  }
+  
+}

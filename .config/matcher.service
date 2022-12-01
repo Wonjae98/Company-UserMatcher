@@ -1,0 +1,14 @@
+[Unit]
+Description=Company-User Matcher
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/srv/Company-UserMatcher
+ExecStart=/home/ubuntu/nlpvenv/bin/python -u /srv/Company-UserMatcher/main.py
+StandardOutput=file:/srv/Company-UserMatcher/output.log
+StandardError=file:/srv/Company-UserMatcher/error.log
+
+
+[Install]
+WantedBy=multi-user.target
