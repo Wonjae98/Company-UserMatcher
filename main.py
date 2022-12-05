@@ -9,7 +9,7 @@ def threaded(client_socket, addr):
 
     while True:
         try:
-            data = client_socket.recv(1024)
+            data = client_socket.recv(100000)
             if not data:
                 print(">> Disconnected by ", addr[0], ":", addr[1])
                 break

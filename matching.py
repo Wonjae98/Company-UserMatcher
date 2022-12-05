@@ -43,11 +43,11 @@ def find_sim_user(user_info, combine_list):
     user_match_count = list(user_match_count.items())
     user_name_top3 = []
 
+    user_top3 = {}
     ## 겹치는 스킬,프레임워크,기타가 0인 유저들을 제외한 나머지 유저들 중 상위 3명을 리턴해줌
     for i, j in enumerate(user_match_count):
         user_name_top3.append(user_match_count[i][0])
 
-        user_top3 = {}
         for i, j in enumerate(user_name_top3):
             user_top3[j] = user_info[j]
     return user_top3, user_match_count
